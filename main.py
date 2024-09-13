@@ -5,7 +5,7 @@ import random
 step = 5
 max_people = 50
 
-File_object = open(r"results", "C:\Users\jonas\OneDrive\Desktop\data structures\Lab2")
+File_object = open(r"results", "w")
 
 for num_people in range(5, max_people + 1, step):
     duplicates_count = 0
